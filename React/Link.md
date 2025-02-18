@@ -104,7 +104,11 @@ interface LinkProps extends Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, 
 
 9️⃣ `viewTransition`: `View Transition`을 활성화하여 페이지 이동 시 전환 애니메이션을 적용할 수 있다.
 
-#### React.RefAttributes<HTMLAnchorElement>> 는 뭘까
+https://github.com/user-attachments/assets/cca26d1a-8c9f-45b7-a23e-04a72e32713c
+
+(뭔가 피피티 효과처럼 은은하게 나타나는 것을 볼 수 있다)
+
+#### 그럼 다음으로, React.RefAttributes<HTMLAnchorElement>> 는 뭘까
 
 `HTMLAnchorElement` 는 `<a>` 를 의미하기 때문에, `Link` 컴포넌트가 `ref`를 받아서 내부 `<a>` 태그에 접근할 수 있다는 것이다.
 
